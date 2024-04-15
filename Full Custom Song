@@ -1,0 +1,558 @@
+#sheet music - https://musescore.com/user/7481681/scores/2021486
+#bass = "C:/Users/kai_louie/Documents/Audacity/bass.mp3"
+#drums = "C:/Users/kai_louie/Documents/Audacity/drums.mp3"
+#vocals = "C:/Users/kai_louie/Documents/Audacity/vocals.mp3"
+
+a = "C:/Users/kai_louie/Documents/Audacity/bass.mp3"
+b = "C:/Users/kai_louie/Documents/Audacity/drums.mp3"
+c = "C:/Users/kai_louie/Documents/Audacity/vocals.mp3"
+z=1
+use_bpm 65
+x = 0.05
+define :drums do
+  sample :drum_heavy_kick
+  sleep 0.5
+  sample :drum_heavy_kick
+  sleep 0.5
+  sample :drum_heavy_kick
+  sleep 0.125
+  sample :drum_heavy_kick
+  sleep 0.125
+  sample :drum_heavy_kick
+  sleep 0.125
+  sample :drum_heavy_kick
+  sleep 0.125
+  sample :drum_heavy_kick
+  sleep 0.125
+  sample :drum_heavy_kick
+  sleep 0.125
+  sample :drum_heavy_kick
+  sleep 0.125
+  sample :drum_heavy_kick
+  sleep 0.125
+  sample :drum_heavy_kick
+  sleep 0.5
+  sample :drum_heavy_kick
+  sleep 0.5
+  sample :drum_heavy_kick
+  sleep 0.5
+  sample :drum_heavy_kick
+  sleep 0.5
+end
+
+define :bowowow do
+  play :F4, release: 0.125, amp: x
+  sleep 0.25
+  play :F4, release: 0.125, amp: x
+  sleep 0.125
+  play :F4, release: 0.0625, amp: x
+  sleep 0.125
+  play :F4, release: 0.25, amp: x
+  sleep 0.25
+  play :G4, release: 0.125, amp: x
+  sleep 0.25
+  
+  play :C4, release: 0.125, amp: x
+  sleep 0.125
+  play :C4, release: 0.0625, amp: x
+  sleep 0.125
+  play :C4, release: 0.25, amp: x
+  sleep 0.25
+  play :C4, release: 0.125, amp: x
+  sleep 0.125
+  
+  if (x<1) then
+    x = x + 0.05
+  end
+  
+  3.times do
+    play :D4, release: 0.125, amp: x
+    sleep 0.125
+    play :D4, release: 0.0625, amp: x
+    sleep 0.125
+    play :D4, release: 0.25, amp: x
+    sleep 0.25
+    play :D4, release: 0.125, amp: x
+    sleep 0.125
+  end
+  
+  if (x<1) then
+    x = x + 0.05
+  end
+  
+  play :F4, release: 0.125, amp: x
+  sleep 0.125
+  play :F4, release: 0.0625, amp: x
+  sleep 0.125
+  play :F4, release: 0.25, amp: x
+  sleep 0.25
+  play :F4, release: 0.125, amp: x
+  sleep 0.25
+  play :G4, release: 0.125, amp: x
+  sleep 0.125
+  play :G4, release: 0.0625, amp: x
+  sleep 0.125
+  
+  play :C4, release: 0.25, amp: x
+  sleep 0.25
+  play :C4, release: 0.125, amp: x
+  sleep 0.25
+  play :C4, release: 0.125, amp: x
+  sleep 0.125
+  play :C4, release: 0.0625, amp: x
+  sleep 0.125
+  
+  if (x<1) then
+    x = x + 0.05
+  end
+  
+  3.times do
+    play :D4, release: 0.25, amp: x
+    sleep 0.25
+    play :D4, release: 0.125, amp: x
+    sleep 0.25
+    play :D4, release: 0.125, amp: x
+    sleep 0.125
+    play :D4, release: 0.0625, amp: x
+    sleep 0.125
+  end
+  
+  if (x<1) then
+    x = x + 0.05
+  end
+  
+  play :F4, release: 0.25, amp: x
+  sleep 0.25
+  play :F4, release: 0.125, amp: x
+  sleep 0.25
+  play :F4, release: 0.125, amp: x
+  sleep 0.125
+  play :F4, release: 0.0625, amp: x
+  sleep 0.125
+  play :G4, release: 0.25, amp: x
+  sleep 0.25
+  
+  play :C4, release: 0.125, amp: x
+  sleep 0.25
+  play :C4, release: 0.125, amp: x
+  sleep 0.125
+  play :C4, release: 0.0625, amp: x
+  sleep 0.125
+  play :C4, release: 0.25, amp: x
+  sleep 0.25
+  
+  if (x<1) then
+    x = x + 0.05
+  end
+  
+  3.times do
+    play :D4, release: 0.125, amp: x
+    sleep 0.25
+    play :D4, release: 0.125, amp: x
+    sleep 0.125
+    play :D4, release: 0.0625, amp: x
+    sleep 0.125
+    play :D4, release: 0.25, amp: x
+    sleep 0.25
+  end
+  
+  if (x<1) then
+    x = x + 0.05
+  end
+end
+define :chorus do
+  use_synth :bass_foundation
+  play :Eb4, release: 0.8
+  play :Eb5, release: 0.8
+  sleep 0.75
+  play :Eb4, release: 0.8
+  play :E4, release: 0.8
+  play :E5, release: 0.8
+  sleep 0.75
+  play :Db4, release: 3
+  play :Db5, release: 3
+  sleep 3
+  play :B4, release: 0.25
+  sleep 0.5
+  play :Db5, release: 0.25
+  sleep 0.5
+  play :B4, release: 0.25
+  sleep 0.5
+  play :Gb5, release: 1
+  sleep 1
+  play :E5, release: 1
+  sleep 1
+  play :Eb4, release: 0.8
+  play :Eb5, release: 0.8
+  sleep 0.75
+  play :B3, release: 0.8
+  play :Eb5, release: 0.8
+  play :B4, release: 0.8
+  sleep 0.75
+  play :Db4, release: 3
+  play :Db5, release: 3
+  sleep 4.5
+  play :E4, release: 0.25
+  play :B4, release: 0.25
+  sleep 0.25
+  play :Gb4, release: 0.25
+  play :Db5, release: 0.25
+  sleep 0.5
+  play :B4, release: 0.25
+  play :E5, release: 0.25
+  sleep 0.25
+  play :Db5, release: 0.25
+  play :Gb5, release: 0.25
+  sleep 1
+end
+define :drum do
+  sample :drum_snare_hard
+  sample :drum_heavy_kick
+  sleep 0.25
+  sample :drum_snare_hard
+  sample :drum_heavy_kick
+  sleep 0.25
+  sample :drum_snare_hard
+  sample :drum_heavy_kick
+  sleep 0.25
+  sample :drum_snare_hard
+  sample :drum_heavy_kick
+  sleep 0.75
+  sample :drum_splash_hard
+  use_synth :hoover
+  play :B3, release: 0.5, amp: 0.5
+  play :B4, release: 0.5, amp: 0.5
+  play :B5, release: 0.5, amp: 0.5
+  play :E4, release: 0.5, amp: 0.5
+  play :E5, release: 0.5, amp: 0.5
+  play :E6, release: 0.5, amp: 0.5
+  use_synth :bass_foundation
+  sleep 0.5
+end
+
+x=0.1
+
+define :base do
+  use_synth :bass_foundation
+  f1 :G4, :B4, :D5
+  sleep 1
+  f1 :G4, :B4, :D5
+  sleep 0.75
+  f1 :G4, :B4, :D5
+  sleep 0.75
+  f1 :G4, :B4, :D5
+  sleep 0.75
+  f1 :A4, :Db4, :E5
+  sleep 0.75
+  f1 :A4, :Db4, :E5
+  sleep 0.75
+  f1 :A4, :Db4, :E5
+  sleep 0.75
+  f1 :A4, :C4, :Eb5
+  sleep 0.5
+  f1 :A4, :C4, :Eb5
+  sleep 0.75
+  f1 :A4, :C4, :Eb5
+  sleep 1.25
+end
+
+define :f1 do |n1, n2, n3|
+  play n1, release: 0.7, amp: z
+  play n2, release: 0.7, amp: z
+  play n3, release: 0.7, amp: z
+end
+
+define :pluh do |n1,n2|
+  play n1, release: 0.125
+  play n2, release: 0.125
+  sleep 0.25
+end
+
+
+2.times do
+  drums
+end
+
+use_synth :saw
+live_loop :bowowow do
+  5.times do
+    bowowow
+  end
+  stop
+end
+
+6.times do
+  drums
+end
+
+live_loop :pluh do
+  9.times do
+    drums
+  end
+  stop
+end
+
+live_loop :drum do
+  20.times do
+    sample :bd_ada
+    sleep 0.5
+    sample :drum_snare_soft
+    sleep 0.5
+  end
+  stop
+end
+
+sleep 36
+
+m=1
+live_loop :drummy do
+  2.times do
+    sample :drum_heavy_kick, amp: m
+    sleep 0.5
+    sample :drum_heavy_kick, amp: m
+    sleep 0.5
+    m = m-0.125
+    sample :drum_heavy_kick, amp: m
+    sleep 0.125
+    sample :drum_heavy_kick, amp: m
+    sleep 0.125
+    sample :drum_heavy_kick, amp: m
+    sleep 0.125
+    sample :drum_heavy_kick, amp: m
+    sleep 0.125
+    sample :drum_heavy_kick, amp: m
+    sleep 0.125
+    sample :drum_heavy_kick, amp: m
+    sleep 0.125
+    sample :drum_heavy_kick, amp: m
+    sleep 0.125
+    sample :drum_heavy_kick, amp: m
+    sleep 0.125
+    m = m-0.125
+    sample :drum_heavy_kick, amp: m
+    sleep 0.5
+    sample :drum_heavy_kick, amp: m
+    sleep 0.5
+    m = m-0.125
+    sample :drum_heavy_kick, amp: m
+    sleep 0.5
+    sample :drum_heavy_kick, amp: m
+    sleep 0.5
+    m = m-0.125
+  end
+  stop
+end
+
+3.times do
+  base
+end
+use_bpm 119.5
+use_synth :hoover
+play :B3, release: 9, amp: 0.3
+play :B4, release: 9, amp: 0.3
+play :B5, release: 9, amp: 0.3
+use_synth :beep
+f1 :G4, :B4, :D5
+sleep 1
+f1 :G4, :B4, :D5
+sleep 0.75
+f1 :G4, :B4, :D5
+sleep 0.75
+f1 :G4, :B4, :D5
+sleep 0.75
+f1 :A4, :Db4, :E5
+sleep 0.75
+f1 :A4, :Db4, :E5
+sleep 0.75
+f1 :A4, :Db4, :E5
+sample a, amp: 5
+live_loop :foo do
+  sleep 0.75
+  f1 :A4, :C4, :Eb5
+  sleep 0.5
+  f1 :A4, :C4, :Eb5
+  stop
+end
+
+sample b, amp: 5
+sample c, amp: 5
+sleep 2.141
+use_synth :hoover
+play :B4, release: 0.5
+play :E4, release: 0.5
+play :B5, release: 0.5
+play :E5, release: 0.5
+play :B6, release: 0.5
+play :E6, release: 0.5
+use_synth :beep
+sleep 1.1
+z=0.25
+live_loop :foo do
+  8.times do
+    base
+  end
+  stop
+end
+sleep 64
+use_bpm 120.5
+use_synth :fm
+play :Eb4, release: 0.8
+play :Eb5, release: 0.8
+sleep 0.75
+play :Eb4, release: 0.8
+play :E4, release: 0.8
+play :E5, release: 0.8
+sleep 0.75
+play :Db4, release: 3
+play :Db5, release: 3
+sleep 3
+play :B4, release: 0.25
+sleep 0.5
+play :Db5, release: 0.25
+sleep 0.5
+play :B4, release: 0.25
+sleep 0.5
+play :Gb5, release: 1
+sleep 1
+play :E5, release: 1
+sleep 1
+play :Eb4, release: 0.8
+play :Eb5, release: 0.8
+sleep 0.75
+play :B3, release: 0.8
+play :Eb5, release: 0.8
+play :B4, release: 0.8
+sleep 0.75
+play :Db4, release: 3
+play :Db5, release: 3
+sleep 4.5
+play :E4, release: 0.25
+play :B4, release: 0.25
+sleep 0.25
+play :Gb4, release: 0.25
+play :Db5, release: 0.25
+sleep 0.5
+play :B4, release: 0.25
+play :E5, release: 0.25
+sleep 0.25
+play :Db5, release: 0.25
+play :Gb5, release: 0.25
+sleep 1
+play :Eb4, release: 0.8
+play :Eb5, release: 0.8
+sleep 0.75
+play :Eb4, release: 0.8
+play :E4, release: 0.8
+play :E5, release: 0.8
+sleep 0.75
+play :Db4, release: 3
+play :Db5, release: 3
+sleep 3
+play :B4, release: 0.25
+sleep 0.5
+play :Db5, release: 0.25
+sleep 0.5
+play :B4, release: 0.25
+sleep 0.5
+play :Gb5, release: 1
+sleep 1
+play :E5, release: 1
+sleep 1
+play :Eb4, release: 0.8
+play :Eb5, release: 0.8
+sleep 0.75
+play :B3, release: 0.8
+play :Eb5, release: 0.8
+play :B4, release: 0.8
+sleep 0.75
+play :Db4, release: 3
+play :Db5, release: 3
+sleep 3.2
+pluh :Db5, :Db6
+pluh :B4, :B5
+play :Db5, release: 0.5
+play :Db6, release: 0.5
+sleep 0.5
+pluh :B4, :B5
+pluh :Ab4, :Ab5
+play :B4, release: 0.5
+play :B5, release: 0.5
+sleep 0.5
+pluh :Ab4, :Ab5
+pluh :Gb4, :Gb5
+pluh :Ab4, :Ab5
+pluh :Gb4, :Gb5
+pluh :F4, :F5
+sleep 0.25
+play :Eb4, release: 0.8
+play :Eb5, release: 0.8
+sleep 0.75
+play :Eb4, release: 0.8
+play :E4, release: 0.8
+play :E5, release: 0.8
+sleep 0.75
+play :Db4, release: 3
+play :Db5, release: 3
+sleep 3
+play :B4, release: 0.25
+sleep 0.5
+play :Db5, release: 0.25
+sleep 0.5
+play :B4, release: 0.25
+sleep 0.5
+play :Gb5, release: 1
+sleep 1
+play :E5, release: 1
+sleep 1
+play :Eb4, release: 0.8
+play :Eb5, release: 0.8
+sleep 0.75
+play :B3, release: 0.8
+play :Eb5, release: 0.8
+play :B4, release: 0.8
+sleep 0.75
+play :Db4, release: 3
+play :Db5, release: 3
+sleep 4.5
+play :E4, release: 0.25
+play :B4, release: 0.25
+sleep 0.25
+play :Gb4, release: 0.25
+play :Db5, release: 0.25
+sleep 0.5
+play :B4, release: 0.25
+play :E5, release: 0.25
+sleep 0.25
+play :Db5, release: 0.25
+play :Gb5, release: 0.25
+sleep 1
+play :Eb4, release: 0.8
+play :Eb5, release: 0.8
+sleep 0.75
+play :Eb4, release: 0.8
+play :E4, release: 0.8
+play :E5, release: 0.8
+sleep 0.75
+play :Db4, release: 3
+play :Db5, release: 3
+sleep 3
+play :B4, release: 0.25
+sleep 0.5
+play :Db5, release: 0.25
+sleep 0.5
+play :B4, release: 0.25
+sleep 0.5
+play :Gb5, release: 1
+sleep 1
+play :E5, release: 1
+sleep 1
+play :Eb4, release: 0.8
+play :Eb5, release: 0.8
+sleep 0.75
+play :B3, release: 0.8
+play :Eb5, release: 0.8
+play :B4, release: 0.8
+sleep 0.75
+play :Db4, release: 3
+play :Db5, release: 3
+sleep 4.5
